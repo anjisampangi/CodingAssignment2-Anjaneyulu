@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+    <body>
+        <div class="cotn_principal">
+            <div class="cont_centrar">
+
+                <div class="cont_login">
+                    <div class="cont_info_log_sign_up">
+                        <!-- LOGIN -->
+                        <div class="col_md_login">
+                            <div class="cont_ba_opcitiy">
+
+                                <h2>SUPER ADMIN LOGIN</h2>
+                                <p>Give Your details and login your page</p>
+                                <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+                            </div>
+                        </div>
+
+                        <div class="col_md_sign_up">
+                            <div class="cont_ba_opcitiy">
+                                <h2>AGENT SIGN UP</h2>
+
+
+                                <p>Give your Personal details and stay journey with us.</p>
+
+                                <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="cont_back_info">
+                        <div class="cont_img_back_grey">
+                            <img src="https://res.cloudinary.com/dyzcz0am8/image/upload/v1674372599/train2_expjd3.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=812&q=80&cs=tinysrgb&crop=" alt="" />
+                        </div>
+
+                    </div>
+
+                    <div class="cont_forms">
+                        <div class="cont_img_back_">
+                            <img src="https://res.cloudinary.com/dyzcz0am8/image/upload/v1674372277/Train_eh9awa.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=812&q=80&cs=tinysrgb&crop=" alt="" />
+                        </div>
+                        <div class="cont_form_login">
+                            <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                            <h2>LOGIN</h2>
+                            <input type="text" placeholder="Email" id="Email1" required />
+                            <input type="password" placeholder="Password" id="PS1" required />
+                            <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+                        </div>
+
+                        <div class="cont_form_sign_up">
+                            <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                            <h2>SIGN UP</h2>
+
+                            <input type="text" placeholder="Email" id="username" required />
+                            <input type="password" placeholder="Password" id="password" required />
+                            <input type="date" required />
+                            <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</body>
+
+</html>

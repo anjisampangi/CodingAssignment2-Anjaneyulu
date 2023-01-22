@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <h1 class="title-pen">Successfully Created Your Profile <span>UI</span></h1>
+    <div class="user-profile">
+        <img class="avatar" src="https://res.cloudinary.com/dyzcz0am8/image/upload/v1674370901/IMG_20200413_233623_384_od7nk4.jpg" alt="Ash" />
+        <div class="username">Anjaneyulu</div>
+        <div class="bio">
+            Full Stack Developer
+        </div>
+        <div class="description">
+            AGE: 25,
+            GENDER: MALE <br />
+            DOB: 10/07/1997
+        </div>
+        <ul class="data">
+            <li>
+                <span class="entypo-heart">Thanks For Connecting</span>
+            </li>
+
+        </ul>
+    </div>
+    <footer>
+        <h1>Click here =>
+            <a href="https://ticket1.ccbp.tech/">
+                <span class="entypo-dribbble"></span> Go to Booking Page</a>
+        </h1>
+    </footer>
+</body>
+
+</html>
